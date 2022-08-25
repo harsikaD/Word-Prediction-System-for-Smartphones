@@ -1,0 +1,804 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.example.hindikeyboard.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5" >
+
+            <TextView
+                android:id="@+id/EditText07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:onClick="set_output"
+                android:editable="false" />
+
+            <TextView
+                android:id="@+id/EditText06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:clickable="true"
+                 android:onClick="set_output"
+                android:editable="false" />
+
+            <TextView
+                android:id="@+id/EditText05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:clickable="true"
+                 android:onClick="set_output"
+                android:editable="false" />
+
+            <TextView
+                android:id="@+id/EditText04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                 android:clickable="true"
+                  android:onClick="set_output"
+                android:editable="false"/>
+
+            <TextView
+                android:id="@+id/EditText03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                 android:clickable="true"
+                  android:onClick="set_output"
+                android:editable="false" />
+
+            <TextView
+                android:id="@+id/EditText02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:clickable="true"
+                 android:onClick="set_output"
+                android:editable="false" />
+
+            <TextView
+                android:id="@+id/EditText01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:clickable="true"
+                 android:onClick="set_output"
+                android:editable="false" />
+
+                    
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/keys"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/keyrow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ा"
+                android:textColor="#fff" />
+
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ि"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ी"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ु"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ू"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ृ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="े"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ै"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ो"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ौ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ं"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ः"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyrow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="अ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="आ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="इ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ई"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="उ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ऊ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ऋ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ए"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ऐ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ओ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="औ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="्"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyrow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="क"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ख"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ग"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="घ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ङ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="च"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="छ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ज"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="झ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ञ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="अं"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="अः"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyrow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ट"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ठ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ड"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ढ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ण"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="त"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="थ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="द"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ध"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="न"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="अॅ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ॐ"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyrow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="प"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="फ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ब"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="भ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="म"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="य"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="र"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ल"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="व"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="श"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ँ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="op_clicked"
+                android:text="←"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/keyrow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/b61"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="op_clicked"
+                android:text="पिछे"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b62"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ष"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b63"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="स"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b64"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ह"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b65"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="क्ष"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b66"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="op_clicked"
+                android:text="रिक्त"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b67"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="त्र"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b68"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ज्ञ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b69"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="।"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b70"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="but_clicked"
+                android:text="ऽ"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/b71"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="op_clicked"
+                android:text="साफ"
+                android:textColor="#fff" />
+            
+              <Button
+                android:id="@+id/b72"
+                android:layout_width="32dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="initialize"
+                android:text="D"
+                android:textColor="#fff" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
